@@ -220,7 +220,7 @@ export default function Home() {
         </main>
 
          <footer className={styles.footer}>
-            <i><a className={styles.a} href="http://38.6.178.177:3000/">hello_word</a></i>
+            <i><a className={styles.a} href="http://38.6.178.177:3000/proxy">hello_word</a></i>
            {isLoading ? (
              <p>正在测试响应时间...</p>
            ) : (

@@ -219,17 +219,17 @@ export default function Home() {
 
         </main>
 
-        <footer className={styles.footer}>
-          <i><a className={styles.a} href="https://github.com/x-dr/chatgptProxyAPI">By @x-dr</a></i>
-          {isLoading ? (
-            <p>正在测试响应时间...</p>
-          ) : (
-            <p style={{ color: latencyColor }}>API平均响应时间：{latency.toFixed(2)}ms</p>
-          )}
-          <p >{ipinfo}</p>
-          {/* <p >{ipinfov}</p> */}
+//         <footer className={styles.footer}>
+//           <i><a className={styles.a} href="https://github.com/x-dr/chatgptProxyAPI">By @x-dr</a></i>
+//           {isLoading ? (
+//             <p>正在测试响应时间...</p>
+//           ) : (
+//             <p style={{ color: latencyColor }}>API平均响应时间：{latency.toFixed(2)}ms</p>
+//           )}
+//           <p >{ipinfo}</p>
+//           {/* <p >{ipinfov}</p> */}
 
-        </footer>
+//         </footer>
 
       </div>
       <style global jsx>{`
